@@ -16,6 +16,7 @@ The points of C are on the equation line y = 2
 
 Determine if there is a pair of collinear points Ai, Bj, Ck
 
+
 Reformulation of the problem:
 
 There are 3 sets of numbers
