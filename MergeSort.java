@@ -33,13 +33,11 @@ public class MergeSort {
             
             // The smaller element is added
             // And the index of the subarray to which it belonged increases
-            if(L1[i] <= L2[j])
-            {
+            if(L1[i] <= L2[j]){
                 S[k] = L1[i];
                 i++;
             }
-            else
-            {
+            else{
                 S[k] = L2[j];
                 j++;
             }
@@ -67,8 +65,8 @@ public class MergeSort {
     public void sort(int S[], int l, int r){
         
         // While there are more than one element in the array
-        if(l < r)
-        {
+        if(l < r){
+            
             // Find the middle of the current array
             int m = l + (r - l) / 2;
             
@@ -84,8 +82,10 @@ public class MergeSort {
     // Function used to print the array
     public void printArray(int S[]){
         int n = S.length;
+        
         for(int i = 0; i < n; i++)
             System.out.print(S[i] + " ");
+        
         System.out.println();
     }
 }
