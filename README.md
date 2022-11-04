@@ -1,23 +1,18 @@
 # Collinear-Points
 
+## Problem:
+
 There are 3 sets of points in the plane
 
-A = {A1, A2,..., An}
+A = {A1, A2,..., An} -> The points of A are on the equation line y = 0
 
-B = {B1, B2,..., Bn}
+B = {B1, B2,..., Bn} -> The points of B are on the equation line y = 1
 
-C = {C1, C2,..., Cn}
-
-The points of A are on the equation line y = 0
-
-The points of B are on the equation line y = 1
-
-The points of C are on the equation line y = 2
+C = {C1, C2,..., Cn} -> The points of C are on the equation line y = 2
 
 Determine if there is a pair of collinear points Ai, Bj, Ck
 
-
-Reformulation of the problem:
+## Reformulation of the problem:
 
 There are 3 sets of numbers
 
