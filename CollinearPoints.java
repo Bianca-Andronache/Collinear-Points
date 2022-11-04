@@ -3,6 +3,7 @@ package collinearpoints;
 public class CollinearPoints {
 
     public static void main(String[] args) {
+        
         // My example
         int[] A = {-5, 3, 6, 8, 1, -2, 4, 2};
         int[] B = { 4, 8, -5, 9, -3, -1, 10, 2};
@@ -34,6 +35,7 @@ public class CollinearPoints {
         int[] D = new int[nb];
         for(int i = 0; i < nb; i++)
             D[i] = B[i] * 2;
+        
         System.out.print("\nD = ");
         ob.printArray(D);
 
@@ -53,13 +55,14 @@ public class CollinearPoints {
             int j = 0;
             int k = 0;
             while(j < nc && k < nb){
+                
                 if(D[j] == E[k]){
                     p = true;
                     break;
                 }
                 else if(D[j] < E[k])
-                    j++;
-                    else k++;
+                        j++;
+                     else k++;
             }
             if(p == true) break;
         }
