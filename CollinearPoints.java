@@ -39,8 +39,8 @@ public class CollinearPoints {
 
         int[] E = new int[nc];
 
-        for(int i = 0; i < na; i++)
-        {
+        for(int i = 0; i < na; i++){
+            
             // For each element of A, form the set E, ek = ai + ck
             // The set C is ordered => E will be ordered
             for(int j = 0; j < nc; j++)
@@ -52,10 +52,8 @@ public class CollinearPoints {
             // Check if E and D have common elements
             int j = 0;
             int k = 0;
-            while(j < nc && k < nb)
-            {
-                if(D[j] == E[k])
-                {
+            while(j < nc && k < nb){
+                if(D[j] == E[k]){
                     p = true;
                     break;
                 }
